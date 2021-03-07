@@ -25,7 +25,7 @@ namespace Business.Concrete
             //business codes
             if(product.ProductName.Length<2)
             {
-                return new ErrorResult("Ürün ismi en az 2 karakter olmalıdır")
+                return new ErrorResult("Ürün ismi en az 2 karakter olmalıdır");
             }
             _productDal.Add(product);
 
